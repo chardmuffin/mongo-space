@@ -3,13 +3,14 @@ const {
     getAllThought,
     getThoughtById,
     addThought,
+    updateThought,
     removeThought } = require('../../controllers/thought-controller');
 
 // /api/thoughts/
 router.route('/').get(getAllThought);
 
 // /api/thoughts/<thoughtId>
-router.route('/:thoughtId').get(getThoughtById);
+router.route('/:thoughtId').get(getThoughtById).put(updateThought);
 
 // /api/thoughts/<userId>
 router.route('/:userId').post(addThought);
