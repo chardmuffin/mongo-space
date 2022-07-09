@@ -25,7 +25,8 @@ const ReactionSchema = new Schema(
     {
         toJSON: {
             getters: true
-        }
+        },
+        id: false
     }
 );
 
@@ -44,7 +45,7 @@ const ThoughtSchema = new Schema(
             type: String,
             required: true
         },
-        
+
         // use ReactionSchema to validate data for a reply
         reactions: [ReactionSchema]
     },
