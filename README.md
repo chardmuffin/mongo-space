@@ -34,7 +34,7 @@ This project is a functional backend for a basic social media site, where users 
 
 Watch a brief video demonstrating how to use the above routes:
 
-[![Watch the video](./src/img/thumbnail.PNG)](https://drive.google.com/file/d/1BPubhIsfskMKKGQFsyYUjF1y4hs5kcAw/view)
+[![Watch the video](./src/img/thumbnail.png)](https://drive.google.com/file/d/1BPubhIsfskMKKGQFsyYUjF1y4hs5kcAw/view)
 
 ## License
 
